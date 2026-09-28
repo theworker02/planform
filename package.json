@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/planform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plan validation gates for form inputs before they hit prod.",
+  "bin": {
+    "planform": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/planform.git"
+  },
+  "homepage": "https://theworker02.github.io/planform/",
+  "keywords": [
+    "plan",
+    "form",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
